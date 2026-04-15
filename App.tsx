@@ -15,12 +15,12 @@ import {
 } from "react-native-safe-area-context";
 import Constants from "expo-constants";
 
-const APP_URL = "https://01de0ff3-cfb1-460a-9713-f65bfa9f8910-00-3cveu81jfnjyk.worf.replit.dev";
+const APP_URL = "https://aubis.com.au";
 
 const ALLOWED_HOSTS = [
+  "aubis.com.au",
+  "www.aubis.com.au",
   "01de0ff3-cfb1-460a-9713-f65bfa9f8910-00-3cveu81jfnjyk.worf.replit.dev",
-  "aubis.au",
-  "www.aubis.au",
 ];
 
 function isExternalUrl(url: string): boolean {
